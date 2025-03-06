@@ -1,0 +1,67 @@
+body {font-family:"Verdana";margin: 0;padding: 0;background-color: #f4f4f4;}
+p {line-height: 1.6;font-size: 18px;text-align: justify;font-family: "Verdana"}
+footer {text-align: center;padding: 5px;background: #936843;color: white;margin-top: 0px;}
+.navbar {overflow: hidden;background-color:#513c2a;width:100%;height:8%;position: fixed;}
+.navbar a {float:left; display: block;font-size: 22px;margin-left:100px;margin-right:100px;font-family:"sans-serif;";color: white;text-align:center;padding: 15px 12px;text-decoration: none;align-content: center}
+.navbar a:hover{background-color: #c2baba;}
+
+.gallery-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: auto;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .header {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .large {
+            grid-column: span 1;
+            grid-row: span 2;
+        }
+        .wide {
+            grid-column: span 2;
+        }
+
+
+.content1{font-family:"Verdana";width: 73%;margin: 25px auto;padding: 20px; font-size:17px;background-color:none; text-align:justify-all}
+.loimodau{font-family:"sans-serif"; text-align: center; color:#936843;font-size:50px; margin:10px}
+.chapter {display: flex;align-items: center;justify-content: center;padding: 30px;background-color:#936843; ;color: white;margin:0px}
+.chapter2 {display: flex;align-items: center;justify-content: center;padding: 0px;background-color:none; margin-top:0px;margin-left: 60px;margin-right: 60px}
+.chapter3 {display: flex;align-items: center;justify-content: center;padding: 30px;background-color:none;margin:50px}
+.chapter4 {display: flex;flex-direction: column;justify-content: center;text-align: jusstify-all;background-color:#936843;color: white}
+.text {width: 38%;padding: 0px;margin:20px;}
+.text h2 {font-size: 80px;font-weight: bold;font-family:"sans-serif";margin:0px}
+.text p {font-size: 19px;line-height: 1.6;}
+.text h3 {font-size: 80px;font-weight: bold;color:#936843;font-family:"sans-serif";margin-top:50px;margin-bottom: 0px;margin-right:200px;text-align:left;width:80%;}
+.text2 {width: 100%;padding: 10px;margin:0px;text-align:center}
+.text2 h2 {font-size: 80px;font-weight: bold;font-family:"sans-serif";margin-top:50px;margin-bottom: 0px}
+.text2 p {font-size: 19px;line-height: 1.6;text-aligh:justify-all;margin-left:200px;margin-right:200px}
+.video{ width: 37%; text-align: right;margin-top:110px;}
+.video video {width: 90%;height: fit-content;border-radius: 5px;}
+.image { width: 47%; text-align: left;}
+.image img{width: 95%;height: fit-content;border-radius: 5px;}
+.poem{font-size:18px;font-family:"Verdana"}
+.textarea{margin-left:30px;border-radius: 5px;margin-bottom: 10px}
+.submit{font-family:"Verdana";font-size: 18px;text-align: justify;margin-left:30px;border-radius: 5px;}
+.chaptercolor{color:#936843}
+.gopy{margin:20px}
+.noidung2{margin-top:130px}
